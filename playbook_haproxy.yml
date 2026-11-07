@@ -1,6 +1,6 @@
 ---
 - name: "Provisionar HAProxy - Workshop Red Hat Academy"
-  hosts: haproxy
+  hosts: vitoria_gp
   become: true
   gather_facts: true
   roles:
